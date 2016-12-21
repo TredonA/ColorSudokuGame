@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        ColorSudoku
+    </title>
+
+    <!-- jQuery Library -->
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <!-- Custom JavaScript and CSS -->
+    <script type="text/javascript" src="SudokuJavaFile.js"></script>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="header">
+        <h1>Color Sudoku!</h1>
+    </div>
+    <div id="content">
+        <div id="canvas-container"></div>
+        <div id="Controls Containers">
+                <button id="submit-color">Submit</button>
+                <span for="grid-rows">Cell Row</span>
+                <input type="number" id="grid-rows" min=1 max=9 step=1 defaultValue=1 value=1></button>
+                <span>Cell Column</span>
+                <input type="number" id="grid-columns" min=1 max=9 step=1 defaultValue=1 value=1></button>
+                <span>Color</span>
+                    <select id="Color-select">
+                        <option value="Blue" selected>Blue</option>
+                        <option value="Red" selected>Red</option>
+                        <option value="Purple" selected>Purple</option>
+                        <option value="Pink" selected>Pink</option>
+                        <option value="Orange" selected>Orange</option>
+                        <option value="Yellow" selected>Yellow</option>
+                        <option value="Green" selected>Green</option>
+                        <option value="Black" selected>Black</option>
+                        <option value="Teal" selected>Teal</option>
+                    </select>
+        </div>
+        <br />
+        <div id="Instructions">
+            <button id="Show-Instructions">Instructions</button>
+        </div>
+        <br />
+        <div id="NextBoard">
+            <button id="next-board">Next Board</button>
+            </div>
+        <div id="Reset-button">
+            <button id="reset">Reset Board</button>
+        </div>
+            <br />
+</body>
+</html>
