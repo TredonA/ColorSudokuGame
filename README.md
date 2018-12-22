@@ -1,4 +1,4 @@
-#Color Sodoku
+# Color Sodoku
 
 Thanks for playing Color Sudoku!
 
