@@ -121,13 +121,13 @@ $(document).ready(function () {
 
             setColor(gameGrid, Constants.CurrentRow, Constants.CurrentColumn, CurrentColor);
 
-            
+
         });
         $("#Instructions").click(function () {
-            window.open("https://tredona.github.io/SudokuInstructionHolder/");
+            window.open("https://github.com/TredonA/ColorSudokuGame");
             return false;
         });
-    
+
         $("#NextBoard").click(function () {
             gameGrid = createGameGrid();
             nextBoard(gameGrid);
