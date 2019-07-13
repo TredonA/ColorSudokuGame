@@ -2,8 +2,6 @@
 
 [Click here to play](http://htmlpreview.github.io/?https://github.com/TredonA/ColorSudokuGame/blob/master/SudokuStarterHTML.html)
 
-Thanks for playing Color Sudoku!
-
 If you are not familiar with regular sudoku, please feel free to take a look at the Sudoku Puzzle Rules on Sudoku's official website (https://www.sudoku.ws/rules.htm).
 
 There's three basic rules you should be aware of:
